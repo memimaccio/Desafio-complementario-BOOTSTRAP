@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    height: 100vh;
+}
+
+h2{
+    margin-bottom: 0.5em;
+}
+h4{
+    margin-bottom: 0.5em;
+}
+section{
+    padding:5% 0;
+}
+
+.columna{
+    margin-bottom: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*HEADER*/
+
+
+.logo-icon{
+    width: 100px;
+}
+
+
+/*PORTADA*/
+.portada{
+    background-image: url('');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.portada article{
+    height: 100%;
+}
+
+.redes li{
+    width: 50px;
+    margin-right: 1em;
+}
+
+/*Galeria*/
+.contenerdor-carrusel .carousel img {
+    object-fit: cover;
+    object-position: right;
+    height: 80vh;
+}
+
+
+/*CONTACTO*/
+
+
+/*FOOTER*/
+.footer{
+    background-color: whitesmoke;
+padding: 0.5em;
+}
